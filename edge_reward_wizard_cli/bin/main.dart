@@ -1,3 +1,14 @@
+import 'package:edge_reward_wizard_cli/configs_handler.dart';
+
+Map appConfigs = {};
+
 void main(List<String> arguments) {
-  print('Hello world:!');
+  getConfigsFromJsonFile()
+      .then((configs) {
+        appConfigs = configs;
+      })
+      .catchError((err) {})
+      .whenComplete(() {
+        print(appConfigs);
+      });
 }
