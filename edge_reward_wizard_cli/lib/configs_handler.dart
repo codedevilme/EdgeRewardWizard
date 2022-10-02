@@ -7,3 +7,13 @@ Future<Map> getConfigsFromJsonFile() async {
   var configsAsMap = jsonDecode(configsAsString);
   return configsAsMap;
 }
+
+Future<Map> getConfigs() async {
+  Map appConfigs = {};
+  await getConfigsFromJsonFile().then((configsFromJsonFile) {
+    appConfigs = configsFromJsonFile;
+  }).catchError((err) {
+    print(err);
+  });
+  return appConfigs;
+}
