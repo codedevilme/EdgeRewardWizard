@@ -1,5 +1,6 @@
 {
-    "waiting_time" : 10,
+    "browser_path" : "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
+    "waiting_time" : 5,
     "urls" : {
         "Code Devil's home page" : "https://codedevil.me",
         "Google" : "https://google.com"
