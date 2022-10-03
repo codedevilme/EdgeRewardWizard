@@ -2,7 +2,7 @@
     "browser_path" : "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe",
     "waiting_time" : 5,
     "urls" : {
-        "Code Devil's home page" : "https://codedevil.me",
+        "Code Devil's home page" : "https://www.bing.com/search?q=codedevil.me",
         "Google" : "https://google.com"
 
     }

@@ -1,5 +1,5 @@
 # Edge Reward Wizard
-Edge Reward Wizard will automatically visit ten urls per day to collect Microsoft Reward points.
+Edge Reward Wizard will automatically visit ten URLs daily to collect Microsoft Reward points.
 
 ## Author
 * Web		 >> https://codedevil.me
